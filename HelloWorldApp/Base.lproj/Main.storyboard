@@ -32,6 +32,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="XqK-Ef-N5Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,10 +46,14 @@
                             <constraint firstItem="qEN-KE-bSO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="Y5m-uy-w0c"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldabel" destination="qEN-KE-bSO" id="2GL-Um-xWB"/>
+                        <outlet property="startButton" destination="ImG-4s-C6l" id="2xf-6Q-MPZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23.664122137404579" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="-302" y="-113"/>
         </scene>
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
